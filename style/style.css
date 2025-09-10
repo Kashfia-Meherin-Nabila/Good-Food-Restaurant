@@ -20,6 +20,7 @@
     font-weight: 600;
     line-height: 13px;
     letter-spacing: 0%;
+    cursor: pointer;
 }
 
 #hero{
@@ -73,4 +74,89 @@
     text-align: center;
     opacity: 0.8;
     margin-bottom: 10px;
+}
+
+/* card style  */
+
+#card-box{
+    width: 489px;
+    margin: 50px auto;
+}
+#card-box .subtitle{
+   color: rgba(16, 16, 16, 1);
+   font-family: Work Sans;
+   font-size: 10px;
+   font-weight: 500;
+   line-height: 100%;
+   letter-spacing: 0%;
+   text-align: center;
+   opacity: 0.8;
+}
+#card-box .title{
+   color: rgba(16, 16, 16, 1);
+   font-family: Work Sans;
+   font-size: 23px;
+   font-weight: 700;
+   line-height: 30px;
+   letter-spacing: 0%;
+   text-align: center;
+}
+.card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.card{
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image-box{
+    width: 160px;
+
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+    padding: 7px 20px 7px 20px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+.card .shop .button{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-box .container .card-container .card .title{
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .container .card-container .card .description{
+    color: rgba(16, 16, 16, 1);
+    opacity: 0.8;
+    font-family: Work Sans;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#sell-btn{
+    text-align: center;
+    margin-top: 30px;
 }
